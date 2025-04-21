@@ -15,6 +15,13 @@
 @var select accentColor "Accent" ["nord10:Nord*"]
 ==/UserStyle== */
 @-moz-document regexp("https:\/\/(gist\.)*github\.com(?!((\/.+?\/.+?\/commit\/[A-Fa-f0-9]+\.(patch|diff)$)|\/home$|\/features($|\/.*)|\/marketplace($|\?.*|\/.*)|\/organizations\/plan)).*$") {
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+  * {
+    font-family: "Inter" !important;
+  }
+
 	[data-color-mode="auto"] {
 		@media (prefers-color-scheme: light) {
 			&[data-light-theme="light"] {
