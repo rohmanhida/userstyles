@@ -6,7 +6,7 @@
 @description Nord theme for ChatGPT
 @author Rohman Hida
 @license MIT
-@version 1.0.0
+@version 1.0.1
 
 @preprocessor  less
 @var select lightFlavor "Light Flavor" ["latte:Latte*"]
@@ -16,9 +16,10 @@
 
 @-moz-document domain("chatgpt.com") {
   @import url("https://unpkg.com/@catppuccin/highlightjs@1.0.0/css/catppuccin-variables.important.css");
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
   * {
-    font-family: "Cartograph CF" !important;
+    font-family: "Inter" !important;
   }
 
   :root.light {
